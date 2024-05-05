@@ -4,7 +4,7 @@ import numpy as np
 
 # 8.a
 print("Question 8.a:")
-collegePath = 'College.csv'
+collegePath = './csv_files/College.csv'
 college = pd.read_csv(collegePath)
 print(college)
 print("*******************************\n\n\n")
